@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0428558223AA034900BBA413 /* CathegorizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428558123AA034900BBA413 /* CathegorizeViewController.swift */; };
 		043F8DD923A9262700CDD38F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F8DD823A9262700CDD38F /* MainViewController.swift */; };
+		0467ACD323AA0EBE009CC77E /* AddQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467ACD223AA0EBE009CC77E /* AddQuestViewController.swift */; };
+		0467ACD523AA153B009CC77E /* QuestionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467ACD423AA153B009CC77E /* QuestionPageViewController.swift */; };
+		0467ACD723AA1BC4009CC77E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467ACD623AA1BC4009CC77E /* ProfileViewController.swift */; };
 		04F2524523A7A706008BA6C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2524423A7A706008BA6C4 /* AppDelegate.swift */; };
 		04F2524723A7A706008BA6C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F2524623A7A706008BA6C4 /* ViewController.swift */; };
 		04F2524A23A7A706008BA6C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F2524823A7A706008BA6C4 /* Main.storyboard */; };
@@ -17,7 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0428558123AA034900BBA413 /* CathegorizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathegorizeViewController.swift; sourceTree = "<group>"; };
 		043F8DD823A9262700CDD38F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0467ACD223AA0EBE009CC77E /* AddQuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestViewController.swift; sourceTree = "<group>"; };
+		0467ACD423AA153B009CC77E /* QuestionPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionPageViewController.swift; sourceTree = "<group>"; };
+		0467ACD623AA1BC4009CC77E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		04F2524123A7A706008BA6C4 /* AskUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F2524423A7A706008BA6C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F2524623A7A706008BA6C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 				04F2524423A7A706008BA6C4 /* AppDelegate.swift */,
 				04F2524623A7A706008BA6C4 /* ViewController.swift */,
 				04F2524823A7A706008BA6C4 /* Main.storyboard */,
+				0467ACD623AA1BC4009CC77E /* ProfileViewController.swift */,
+				0467ACD423AA153B009CC77E /* QuestionPageViewController.swift */,
+				0467ACD223AA0EBE009CC77E /* AddQuestViewController.swift */,
+				0428558123AA034900BBA413 /* CathegorizeViewController.swift */,
 				043F8DD823A9262700CDD38F /* MainViewController.swift */,
 				04F2524E23A7A707008BA6C4 /* Assets.xcassets */,
 				04F2525023A7A707008BA6C4 /* LaunchScreen.storyboard */,
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0428558223AA034900BBA413 /* CathegorizeViewController.swift in Sources */,
 				04F2524723A7A706008BA6C4 /* ViewController.swift in Sources */,
 				04F2524523A7A706008BA6C4 /* AppDelegate.swift in Sources */,
 				04F2524D23A7A706008BA6C4 /* AskUs.xcdatamodeld in Sources */,
 				043F8DD923A9262700CDD38F /* MainViewController.swift in Sources */,
+				0467ACD523AA153B009CC77E /* QuestionPageViewController.swift in Sources */,
+				0467ACD723AA1BC4009CC77E /* ProfileViewController.swift in Sources */,
+				0467ACD323AA0EBE009CC77E /* AddQuestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
